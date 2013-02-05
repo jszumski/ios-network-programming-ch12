@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03384B67154F216D00502B4E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03384B66154F216D00502B4E /* Icon.png */; };
+		03384B6A154F217000502B4E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03384B69154F217000502B4E /* Icon@2x.png */; };
+		03384B6C154F217400502B4E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03384B6B154F217400502B4E /* Default.png */; };
+		03384B6E154F217500502B4E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03384B6D154F217500502B4E /* Default@2x.png */; };
+		037BB1A614BA5BF000492FC7 /* GAAuctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037BB1A414BA5BF000492FC7 /* GAAuctionViewController.m */; };
+		039D5A3B14B8FF430084930A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039D5A3A14B8FF430084930A /* UIKit.framework */; };
+		039D5A3D14B8FF430084930A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039D5A3C14B8FF430084930A /* Foundation.framework */; };
+		039D5A3F14B8FF430084930A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039D5A3E14B8FF430084930A /* CoreGraphics.framework */; };
+		039D5A4514B8FF430084930A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039D5A4314B8FF430084930A /* InfoPlist.strings */; };
+		039D5A4714B8FF430084930A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D5A4614B8FF430084930A /* main.m */; };
+		039D5A4B14B8FF430084930A /* GAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D5A4A14B8FF430084930A /* GAAppDelegate.m */; };
+		039D5A4E14B8FF430084930A /* GALobbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D5A4D14B8FF430084930A /* GALobbyViewController.m */; };
+		039D5A5414B8FF430084930A /* GALobbyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039D5A5214B8FF430084930A /* GALobbyViewController.xib */; };
+		039D5A5E14B8FF5A0084930A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039D5A5D14B8FF5A0084930A /* GameKit.framework */; };
+		039D5A6214B90BCE0084930A /* GANetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D5A6114B90BCE0084930A /* GANetworkingManager.m */; };
+		039D5A6614B90F110084930A /* GAPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D5A6514B90F110084930A /* GAPeer.m */; };
+		A0FCA4BA16C1C641003CE103 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0FCA4B916C1C641003CE103 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03384B66154F216D00502B4E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		03384B69154F217000502B4E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		03384B6B154F217400502B4E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		03384B6D154F217500502B4E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		037BB1A314BA5BF000492FC7 /* GAAuctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GAAuctionViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		037BB1A414BA5BF000492FC7 /* GAAuctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GAAuctionViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		039D5A3614B8FF430084930A /* GameKit Auctioneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameKit Auctioneer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		039D5A3A14B8FF430084930A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		039D5A3C14B8FF430084930A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		039D5A3E14B8FF430084930A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		039D5A4214B8FF430084930A /* GameKit Auctioneer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameKit Auctioneer-Info.plist"; sourceTree = "<group>"; };
+		039D5A4414B8FF430084930A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		039D5A4614B8FF430084930A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		039D5A4814B8FF430084930A /* GameKit Auctioneer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameKit Auctioneer-Prefix.pch"; sourceTree = "<group>"; };
+		039D5A4914B8FF430084930A /* GAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GAAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		039D5A4A14B8FF430084930A /* GAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GAAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		039D5A4C14B8FF430084930A /* GALobbyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GALobbyViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		039D5A4D14B8FF430084930A /* GALobbyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GALobbyViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		039D5A5314B8FF430084930A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GALobbyViewController.xib; sourceTree = "<group>"; };
+		039D5A5D14B8FF5A0084930A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		039D5A6014B90BCE0084930A /* GANetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GANetworkingManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		039D5A6114B90BCE0084930A /* GANetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GANetworkingManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		039D5A6414B90F110084930A /* GAPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GAPeer.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		039D5A6514B90F110084930A /* GAPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GAPeer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		039D5A6714B9113A0084930A /* GANetworkingPackets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GANetworkingPackets.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A0FCA4B916C1C641003CE103 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		039D5A3314B8FF430084930A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039D5A5E14B8FF5A0084930A /* GameKit.framework in Frameworks */,
+				039D5A3B14B8FF430084930A /* UIKit.framework in Frameworks */,
+				039D5A3D14B8FF430084930A /* Foundation.framework in Frameworks */,
+				039D5A3F14B8FF430084930A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039D5A2B14B8FF430084930A = {
+			isa = PBXGroup;
+			children = (
+				039D5A4014B8FF430084930A /* GameKit Auctioneer */,
+				039D5A3914B8FF430084930A /* Frameworks */,
+				039D5A3714B8FF430084930A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		039D5A3714B8FF430084930A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				039D5A3614B8FF430084930A /* GameKit Auctioneer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		039D5A3914B8FF430084930A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				039D5A5D14B8FF5A0084930A /* GameKit.framework */,
+				039D5A3A14B8FF430084930A /* UIKit.framework */,
+				039D5A3C14B8FF430084930A /* Foundation.framework */,
+				039D5A3E14B8FF430084930A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		039D5A4014B8FF430084930A /* GameKit Auctioneer */ = {
+			isa = PBXGroup;
+			children = (
+				039D5A4914B8FF430084930A /* GAAppDelegate.h */,
+				039D5A4A14B8FF430084930A /* GAAppDelegate.m */,
+				039D5A6314B90EEA0084930A /* Networking */,
+				039D5A5F14B90AB60084930A /* User Interface */,
+				039D5A4114B8FF430084930A /* Supporting Files */,
+			);
+			path = "GameKit Auctioneer";
+			sourceTree = "<group>";
+		};
+		039D5A4114B8FF430084930A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03384B66154F216D00502B4E /* Icon.png */,
+				03384B69154F217000502B4E /* Icon@2x.png */,
+				03384B6B154F217400502B4E /* Default.png */,
+				03384B6D154F217500502B4E /* Default@2x.png */,
+				A0FCA4B916C1C641003CE103 /* Default-568h@2x.png */,
+				039D5A4214B8FF430084930A /* GameKit Auctioneer-Info.plist */,
+				039D5A4314B8FF430084930A /* InfoPlist.strings */,
+				039D5A4614B8FF430084930A /* main.m */,
+				039D5A4814B8FF430084930A /* GameKit Auctioneer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		039D5A5F14B90AB60084930A /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				039D5A4C14B8FF430084930A /* GALobbyViewController.h */,
+				039D5A4D14B8FF430084930A /* GALobbyViewController.m */,
+				039D5A5214B8FF430084930A /* GALobbyViewController.xib */,
+				037BB1A314BA5BF000492FC7 /* GAAuctionViewController.h */,
+				037BB1A414BA5BF000492FC7 /* GAAuctionViewController.m */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		039D5A6314B90EEA0084930A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				039D5A6714B9113A0084930A /* GANetworkingPackets.h */,
+				039D5A6014B90BCE0084930A /* GANetworkingManager.h */,
+				039D5A6114B90BCE0084930A /* GANetworkingManager.m */,
+				039D5A6414B90F110084930A /* GAPeer.h */,
+				039D5A6514B90F110084930A /* GAPeer.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		039D5A3514B8FF430084930A /* GameKit Auctioneer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039D5A5A14B8FF430084930A /* Build configuration list for PBXNativeTarget "GameKit Auctioneer" */;
+			buildPhases = (
+				039D5A3214B8FF430084930A /* Sources */,
+				039D5A3314B8FF430084930A /* Frameworks */,
+				039D5A3414B8FF430084930A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GameKit Auctioneer";
+			productName = "GameKit Auctioneer";
+			productReference = 039D5A3614B8FF430084930A /* GameKit Auctioneer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		039D5A2D14B8FF430084930A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "CapTech Consulting";
+			};
+			buildConfigurationList = 039D5A3014B8FF430084930A /* Build configuration list for PBXProject "GameKit Auctioneer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 039D5A2B14B8FF430084930A;
+			productRefGroup = 039D5A3714B8FF430084930A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				039D5A3514B8FF430084930A /* GameKit Auctioneer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		039D5A3414B8FF430084930A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039D5A4514B8FF430084930A /* InfoPlist.strings in Resources */,
+				039D5A5414B8FF430084930A /* GALobbyViewController.xib in Resources */,
+				03384B67154F216D00502B4E /* Icon.png in Resources */,
+				03384B6A154F217000502B4E /* Icon@2x.png in Resources */,
+				03384B6C154F217400502B4E /* Default.png in Resources */,
+				03384B6E154F217500502B4E /* Default@2x.png in Resources */,
+				A0FCA4BA16C1C641003CE103 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		039D5A3214B8FF430084930A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039D5A4714B8FF430084930A /* main.m in Sources */,
+				039D5A4B14B8FF430084930A /* GAAppDelegate.m in Sources */,
+				039D5A4E14B8FF430084930A /* GALobbyViewController.m in Sources */,
+				039D5A6214B90BCE0084930A /* GANetworkingManager.m in Sources */,
+				039D5A6614B90F110084930A /* GAPeer.m in Sources */,
+				037BB1A614BA5BF000492FC7 /* GAAuctionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		039D5A4314B8FF430084930A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				039D5A4414B8FF430084930A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		039D5A5214B8FF430084930A /* GALobbyViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				039D5A5314B8FF430084930A /* en */,
+			);
+			name = GALobbyViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		039D5A5814B8FF430084930A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		039D5A5914B8FF430084930A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		039D5A5B14B8FF430084930A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameKit Auctioneer/GameKit Auctioneer-Prefix.pch";
+				INFOPLIST_FILE = "GameKit Auctioneer/GameKit Auctioneer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		039D5A5C14B8FF430084930A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameKit Auctioneer/GameKit Auctioneer-Prefix.pch";
+				INFOPLIST_FILE = "GameKit Auctioneer/GameKit Auctioneer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		039D5A3014B8FF430084930A /* Build configuration list for PBXProject "GameKit Auctioneer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039D5A5814B8FF430084930A /* Debug */,
+				039D5A5914B8FF430084930A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		039D5A5A14B8FF430084930A /* Build configuration list for PBXNativeTarget "GameKit Auctioneer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039D5A5B14B8FF430084930A /* Debug */,
+				039D5A5C14B8FF430084930A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 039D5A2D14B8FF430084930A /* Project object */;
+}
